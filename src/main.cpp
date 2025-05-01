@@ -47,17 +47,35 @@ ________________[_]_[_]_[_]_________/_]_[_\___________________________________
 #include <avr/io.h>
 #include <Adafruit_GFX.h>
 #include <Adafruit_BusIO_Register.h>
-#include "TCA9548A.h"
+#include <TCA9548A.h>
 #include <LiquidCrystal_I2C.h>
 #include <Adafruit_SSD1306.h>
 
 
+
+#include "Config_mcu.h"
+#include "Config_teclado_matricial.h"
+
+
+
+
+
 void setup() {
+
+
+
  
 }
 
 
+
+
+
 void loop() {
+
+
+
+
  
 }
 
