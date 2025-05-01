@@ -45,8 +45,11 @@ ________________[_]_[_]_[_]_________/_]_[_\___________________________________
 #include <Wire.h>
 #include <avr/interrupt.h>
 #include <avr/io.h>
-
-
+#include <Adafruit_GFX.h>
+#include <Adafruit_BusIO_Register.h>
+#include "TCA9548A.h"
+#include <LiquidCrystal_I2C.h>
+#include <Adafruit_SSD1306.h>
 
 
 void setup() {
