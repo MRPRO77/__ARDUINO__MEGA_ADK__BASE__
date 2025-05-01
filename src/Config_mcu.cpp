@@ -107,7 +107,12 @@ TCA9548A I2CMux;                             // Address can be passed into the c
                           display.setTextSize(1);
                      display.setTextColor(WHITE);
                          display.setCursor(30,0);
-                        display.print("Umidade");
+                     display.print("Tecnologia");
+                                      delay(100);
+                               display.display();
+                          display.setTextSize(2);
+                        display.setCursor(30,10);
+                          display.print("MRPRO");
                                       delay(100);
                                display.display();  
                           I2CMux.closeChannel(1);
